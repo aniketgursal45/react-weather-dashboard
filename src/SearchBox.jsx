@@ -59,7 +59,7 @@ export default function SearchBox({ setWeatherInfo }) {
             <form onSubmit={handleSub}>
                 <TextField className="search-input" id="outlined-basic" label="City Name" onChange={handleCity} value={city} required variant="outlined" />
                 <br /><br />
-                <p className="error-msg">{error?"This place does not exist":""}</p>
+                <p className="error-msg">{error?"City not found":""}</p>
                 <Button className="search-btn" variant="contained" type='submit'>Search</Button>
             </form>
         </div>
