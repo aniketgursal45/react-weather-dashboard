@@ -22,7 +22,7 @@ export default function SearchBox({ setWeatherInfo }) {
 
 
         let weatherReport = {
-            city: city: city.charAt(0).toUpperCase() + city.slice(1),
+            city:city.charAt(0).toUpperCase() + city.slice(1),
             temp: resFinal.main.temp,
             tempMin: resFinal.main.temp_min,
             tempMax: resFinal.main.temp_max,
