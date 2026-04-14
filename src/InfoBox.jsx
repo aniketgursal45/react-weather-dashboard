@@ -32,7 +32,7 @@ export default function InfoBox({weatherInfo}) {
                         <span>Temperature: {weatherInfo.temp}&deg;C</span>
                         <span>Min Temp: {weatherInfo.tempMin}&deg;C</span>
                         <span>Max Temp: {weatherInfo.tempMax}&deg;C</span>
-                        <span>Humidity: {weatherInfo.humidity}</span>
+                        <span>Humidity: {weatherInfo.humidity}%</span>
                         <span>Feels Like: {weatherInfo.feelsLike}</span>
                         <span>Weather: {weatherInfo.weather}</span>
                     </Typography>
